@@ -1,6 +1,7 @@
 import React from 'react';
 
-import NavBar from './NavBar.js'
+import NavigationBar from './NavBar.js'
+import Gallery from './Gallery.js'
 
 export default class App extends React.Component {
 	constructor(props) {
@@ -11,7 +12,8 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<div className="app-component">
-				<NavBar />
+				<NavigationBar />
+				<Gallery />
 			</div>)
 	}
 }
