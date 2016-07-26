@@ -1,0 +1,8 @@
+div.gallery-component {
+	margin: auto;
+	width: 50%;
+	border: 5px solid black;
+}
+.gallery-component p {
+	text-align: center;
+}
